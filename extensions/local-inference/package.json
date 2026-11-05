@@ -1,0 +1,10 @@
+{
+   "name": "omp-local-inference",
+   "private": true,
+   "version": "0.2.0",
+   "author": "raulcorreia7 <19838093+raulcorreia7@users.noreply.github.com>",
+   "type": "module",
+   "description": "registers the llama-swap front door as a provider, with the model catalog read from its registry metadata",
+   "pi": { "extensions": ["./index.ts"] },
+   "devDependencies": { "@oh-my-pi/pi-coding-agent": "^18" }
+}

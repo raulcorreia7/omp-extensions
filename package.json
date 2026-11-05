@@ -1,0 +1,17 @@
+{
+  "name": "omp-extensions-tooling",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Tooling for the extensions in this repo (tsconfig.json, biome.json)",
+  "scripts": {
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@oh-my-pi/pi-coding-agent": "^18",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

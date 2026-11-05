@@ -1,0 +1,10 @@
+{
+  "name": "omp-expand-refresh",
+  "private": true,
+  "version": "0.1.0",
+  "author": "raulcorreia7 <19838093+raulcorreia7@users.noreply.github.com>",
+  "type": "module",
+  "description": "Click-to-expand tool execution cards, and refresh retired transcript rows after expansion gestures",
+  "pi": { "extensions": ["./index.ts"] },
+  "devDependencies": { "@oh-my-pi/pi-coding-agent": "^18" }
+}

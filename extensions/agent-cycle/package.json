@@ -1,0 +1,10 @@
+{
+  "name": "omp-agent-cycle",
+  "private": true,
+  "version": "0.1.0",
+  "author": "raulcorreia7 <19838093+raulcorreia7@users.noreply.github.com>",
+  "type": "module",
+  "description": "Subagent focus cycling shortcuts",
+  "pi": { "extensions": ["./index.ts"] },
+  "devDependencies": { "@oh-my-pi/pi-coding-agent": "^18" }
+}
